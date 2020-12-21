@@ -1,0 +1,1 @@
+item entity @s armor.chest replace gold_block 1

@@ -37,9 +37,9 @@ def commandreplaceitem(line):
 
 
 print("\n")
-print("Starting Updating...")
+print("Start Updating...")
 time.sleep(5)
-updatefilename = "updatefilefunction.txt"
+updatefilename = "updatefilemcfunction.txt"
 for dirpath, dirnames, filenames in os.walk("."):
     updatefile = open(updatefilename, "w")
     for filename in [f for f in filenames if f.endswith(".mcfunction")]:
